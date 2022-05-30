@@ -8,7 +8,7 @@ import java.sql.DriverManager.println
             }
 
     fun getSimpleSpice() {
-        var simpleSpice : SimpleSpice = SimpleSpice()
+        var simpleSpice = SimpleSpice()
         simpleSpice.spiceName = "curry"
         simpleSpice.spiceSpiciness = "mild"
         println("Spice name: ${simpleSpice.spiceName} " + " and spice spiciness: ${simpleSpice.spiceSpiciness}")
